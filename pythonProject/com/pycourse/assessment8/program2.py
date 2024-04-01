@@ -1,0 +1,5 @@
+tup=(1,2,0,55)
+l=list(tup)
+l.append(88)
+tup=tuple(l)
+print(tup)
